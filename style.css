@@ -1,3 +1,13 @@
+html {
+background: #0A1926;
+color: #A4A5A6;
+}
+
+input {
+  background: #254A59;
+  color: #A4A5A6;
+}
+
 .red {
   background: red;
 }
@@ -11,21 +21,22 @@
 }
 
 hr.pageborder {
-  border-top: 5px solid black;
+  border-top: 5px solid #A4A5A7;
 }
 
 button {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   font-size: 10px;
   border-radius: 10px 10px 10px 10px;
   padding: 4px 6px;
   font-weight: bold;
+  background: #6393A6;
 }
 
 #buttonload {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   font-size: 10px;
   border-radius: 10px 10px 10px 10px;
   padding: 4px 6px;
@@ -71,7 +82,7 @@ form.charsheet div.textblock {
 }
 form.charsheet div.textblock label {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-top: 0;
   font-size: 10px;
   width: calc(100% - 20px - 2px);
@@ -80,7 +91,7 @@ form.charsheet div.textblock label {
   font-weight: bold;
 }
 form.charsheet div.textblock textarea {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
 }
 form.charsheet ul {
   margin: 0;
@@ -91,19 +102,19 @@ form.charsheet ul li {
   display: block;
 }
 form.charsheet ::-webkit-input-placeholder {
-  color: #bbb;
+  color: #40616E;
 }
 form.charsheet ::-moz-placeholder {
-  color: #bbb;
+  color: #40616E;
 }
 form.charsheet :-ms-input-placeholder {
-  color: #bbb;
+  color: #40616E;
 }
 form.charsheet ::-ms-input-placeholder {
-  color: #bbb;
+  color: #40616E;
 }
 form.charsheet ::placeholder {
-  color: #bbb;
+  color: #40616E;
 }
 form.charsheet label {
   text-transform: uppercase;
@@ -117,11 +128,11 @@ form.charsheet header {
           align-items: stretch;
 }
 form.charsheet header section.charname {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-right: 0;
   border-radius: 10px 0 0 10px;
   padding: 5px 0;
-  background-color: #ddd;
+  background-color: #142F40;
   width: 30%;
   display: -webkit-box;
   display: flex;
@@ -142,7 +153,7 @@ form.charsheet header section.charname label {
 }
 form.charsheet header section.misc {
   width: 70%;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   padding-left: 1em;
   padding-right: 1em;
@@ -172,7 +183,7 @@ form.charsheet header section.misc ul li label {
 }
 form.charsheet header section.misc ul li input {
   border: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #142F40;
 }
 form.charsheet main {
   display: -webkit-box;
@@ -186,7 +197,7 @@ form.charsheet main div.label-container {
   width: 100%;
   height: 18px;
   margin-top: 6px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-left: 0;
   text-align: center;
 }
@@ -219,7 +230,7 @@ form.charsheet main > section section.attributes {
 }
 form.charsheet main > section section.attributes div.scores {
   width: 101px;
-  background-color: #ddd;
+  background-color: #142F40;
   border-radius: 10px;
   padding-bottom: 5px;
 }
@@ -241,8 +252,8 @@ form.charsheet main > section section.attributes div.scores ul {
 form.charsheet main > section section.attributes div.scores ul li {
   height: 80px;
   width: 70px;
-  background-color: white;
-  border: 1px solid black;
+  background-color: #254A59;
+  border: 1px solid #A4A5A7;
   text-align: center;
   display: -webkit-box;
   display: flex;
@@ -260,16 +271,16 @@ form.charsheet main > section section.attributes div.scores ul li div.score inpu
   text-align: center;
   font-size: 40px;
   padding: 2px 0px 0px 0px;
-  background: white;
+  background: #254A59;
 }
 form.charsheet main > section section.attributes div.scores ul li div.modifier {
   margin-top: 3px;
 }
 form.charsheet main > section section.attributes div.scores ul li div.modifier input {
-  background: white;
+  background: #254A59;
   width: 30px;
   height: 20px;
-  border: 1px inset black;
+  border: 1px inset #A4A5A7;
   border-radius: 20px;
   margin: -1px;
   text-align: center;
@@ -287,7 +298,7 @@ form.charsheet main > section section.attributes div.attr-applications div.inspi
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   padding: 15px;
   border-radius: 10px;
 }
@@ -303,12 +314,12 @@ form.charsheet main > section section.attributes div.attr-applications div.profi
 form.charsheet main > section section.attributes div.attr-applications div.proficiencybonus input {
   width: 30px;
   height: 28px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   text-align: center;
   border-radius: 10px;
 }
 form.charsheet main > section section.attributes div.attr-applications div.list-section {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   padding: 10px 5px;
 }
@@ -337,14 +348,14 @@ form.charsheet main > section section.attributes div.attr-applications div.list-
           order: 3;
 }
 form.charsheet main > section section.attributes div.attr-applications div.list-section ul li label span.skill {
-  color: #bbb;
+  color: #6393A6;
 }
 form.charsheet main > section section.attributes div.attr-applications div.list-section ul li input[type="text"] {
   width: 30px;
   font-size: 12px;
   text-align: center;
   border: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #A4A5A7;
   -webkit-box-ordinal-group: 3;
           order: 2;
 }
@@ -354,13 +365,13 @@ form.charsheet main > section section.attributes div.attr-applications div.list-
           appearance: none;
   width: 10px;
   height: 10px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   -webkit-box-ordinal-group: 2;
           order: 1;
 }
 form.charsheet main > section section.attributes div.attr-applications div.list-section ul li input[type="checkbox"]:checked {
-  background-color: black;
+  background-color: #A4A5A7;
 }
 form.charsheet main > section div.passive-perception {
   display: -webkit-box;
@@ -375,7 +386,7 @@ form.charsheet main > section div.passive-perception input {
   width: 30px;
   height: 28px;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
 }
 
@@ -383,7 +394,7 @@ form.charsheet main > section div.otherprofs textarea {
   height: 17em;
 }
 form.charsheet main section.combat {
-  background-color: #ddd;
+  background-color: #142F40;
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
@@ -408,9 +419,9 @@ form.charsheet main section.combat > div.armorclass > div, form.charsheet main s
 form.charsheet main section.combat > div.armorclass > div label, form.charsheet main section.combat > div.initiative > div label, form.charsheet main section.combat > div.speed > div label {
   font-size: 8px;
   width: 50px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-top: 0;
-  background-color: white;
+  background-color: #254A59;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -420,7 +431,7 @@ form.charsheet main section.combat > div.armorclass > div input, form.charsheet 
   height: 70px;
   width: 70px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   text-align: center;
   font-size: 30px;
 }
@@ -428,8 +439,8 @@ form.charsheet main section.combat > div.hp {
   flex-basis: 100%;
 }
 form.charsheet main section.combat > div.hp > div.regular {
-  background-color: white;
-  border: 1px solid black;
+  background-color: #254A59;
+  border: 1px solid #A4A5A7;
   margin: 10px;
   margin-bottom: 5px;
   border-radius: 10px 10px 0 0;
@@ -444,12 +455,12 @@ form.charsheet main section.combat > div.hp > div.regular > div.max {
 form.charsheet main section.combat > div.hp > div.regular > div.max label {
   font-size: 10px;
   text-transform: none;
-  color: #bbb;
+  color: #6393A6;
 }
 form.charsheet main section.combat > div.hp > div.regular > div.max input {
   width: 40%;
   border: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #142F40;
   font-size: 12px;
   text-align: center;
 }
@@ -476,14 +487,14 @@ form.charsheet main section.combat > div.hp > div.regular > div.current label {
 form.charsheet main section.combat > div.hp > div.temporary {
   margin: 10px;
   margin-top: 0;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 0 0 10px 10px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
           flex-direction: column-reverse;
-  background-color: white;
+  background-color: #254A59;
 }
 form.charsheet main section.combat > div.hp > div.temporary input {
   padding: 1em 0;
@@ -506,9 +517,9 @@ form.charsheet main section.combat > div.hitdice > div, form.charsheet main sect
   height: 80px;
 }
 form.charsheet main section.combat > div.hitdice > div {
-  background-color: white;
+  background-color: #254A59;
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   display: -webkit-box;
   display: flex;
@@ -526,7 +537,7 @@ form.charsheet main section.combat > div.hitdice > div > div.total {
 }
 form.charsheet main section.combat > div.hitdice > div > div.total label {
   font-size: 10px;
-  color: #bbb;
+  color: #6393A6;
   margin: 0.25em;
   text-transform: none;
 }
@@ -535,7 +546,7 @@ form.charsheet main section.combat > div.hitdice > div > div.total input {
   -webkit-box-flex: 1;
           flex-grow: 1;
   border: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #142F40;
   width: 50%;
   margin-right: 0.25em;
   padding: 0 0.25em;
@@ -563,8 +574,8 @@ form.charsheet main section.combat > div.hitdice > div > div.remaining input {
 }
 form.charsheet main section.combat > div.deathsaves > div {
   margin: 10px;
-  background: white;
-  border: 1px solid black;
+  background: #254A59;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   display: -webkit-box;
   display: flex;
@@ -612,16 +623,16 @@ form.charsheet main section.combat > div.deathsaves > div div.bubbles input[type
           appearance: none;
   width: 10px;
   height: 10px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
 }
 form.charsheet main section.combat > div.deathsaves > div div.bubbles input[type="checkbox"]:checked {
-  background-color: black;
+  background-color: #A4A5A7;
 }
 
 /* Attacks and Spellcasting */
 form.charsheet header section.attacksandspellcasting {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   margin-top: 10px;
   width: 100%;
@@ -645,16 +656,16 @@ form.charsheet header section.attacksandspellcasting > div > table {
 }
 form.charsheet header section.attacksandspellcasting > div > table th {
   font-size: 10px;
-  color: black;
+  color: #A4A5A7;
 }
 form.charsheet header section.attacksandspellcasting > div > table td {
   font-size: 10px;
-  color: black;
+  color: #A4A5A7;
 }
 form.charsheet header section.attacksandspellcasting > div > table input {
   width: calc(100% - 4px);
   border: 0;
-  background-color: #ddd;
+  background-color: #142F40;
   font-size: 10px;
   padding: 3px;
 }
@@ -665,7 +676,7 @@ form.charsheet header section.attacksandspellcasting > div textarea {
 
 
 form.charsheet header section.currency {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   margin-top: 10px;
   text-align: center;
@@ -699,7 +710,7 @@ form.charsheet header section.currency > div > div.money ul > li {
   padding: 3px 0;
 }
 form.charsheet header section.currency > div > div.money ul > li label {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px 0 0 10px;
   border-right: 0;
   width: 20px;
@@ -708,7 +719,7 @@ form.charsheet header section.currency > div > div.money ul > li label {
   padding: 3px 0;
 }
 form.charsheet header section.currency > div > div.money ul > li input {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   width: 40px;
   padding: 10px 3px;
@@ -731,18 +742,18 @@ form.charsheet header section.currency > div > textarea {
 
 form.charsheet main section.flavor {
   padding: 10px;
-  background: #ddd;
+  background: #142F40;
   border-radius: 10px;
 }
 form.charsheet main section.flavor div {
-  background: white;
+  background: #254A59;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
           flex-direction: column-reverse;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
 }
 form.charsheet main section.flavor div label {
   text-align: center;
@@ -771,7 +782,7 @@ form.charsheet main section.features {
 form.charsheet main section.features div {
   padding: 10px;
   font-weight: bold;
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   display: -webkit-box;
   display: flex;
@@ -790,7 +801,7 @@ form.charsheet main section.features div textarea {
 
 /* Attacks and Spellcasting */
 form.charsheet header section.encumberance {
-  border: 1px solid black;
+  border: 1px solid #A4A5A7;
   border-radius: 10px;
   margin-top: 10px;
   width: 100%;
@@ -815,16 +826,16 @@ form.charsheet header section.encumberance > div > div > table {
 }
 form.charsheet header section.encumberance > div > div > table th {
   font-size: 10px;
-  color: black;
+  color: #A4A5A7;
 }
 form.charsheet header section.encumberance > div > div > table td {
   font-size: 10px;
-  color: black;
+  color: #A4A5A7;
 }
 form.charsheet header section.encumberance > div > div > table input {
   width: calc(100% - 4px);
   border: 0;
-  background-color: #ddd;
+  background-color: #142F40;
   font-size: 10px;
   padding: 3px;
 }
@@ -836,6 +847,8 @@ form.charsheet header section.encumberance > div textarea {
 textarea {
   /* Hides scroll bar until needed. */
   overflow-y: auto;
+  background: #254A59;
+  color: #A4A5A6;
 }
 
 #loadlabel {
